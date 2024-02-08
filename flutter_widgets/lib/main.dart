@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
 
-        //
+        // Replace the file/Class name in the home widget to get the
+        // results of desire widget file or Class.
 
         home: Container_Widget());
   }
