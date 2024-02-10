@@ -19,7 +19,9 @@ class Container_Widget extends StatelessWidget {
             child: Container(
               height: 300,
               width: 300,
-              color: Colors.deepPurple, 
+              color: Colors.deepPurple,
+              decoration:
+                  BoxDecoration(borderRadius: BorderRadius.circular(15)),
             ),
           )),
     );
