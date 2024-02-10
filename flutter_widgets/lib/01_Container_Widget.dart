@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, camel_case_types
+// ignore_for_file: prefer_const_constructors, camel_case_types, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 
@@ -21,8 +21,27 @@ class Container_Widget extends StatelessWidget {
               width: 300,
               color: Colors.deepPurple,
               decoration:
-                  BoxDecoration(borderRadius: BorderRadius.circular(15)),
-            ),
+                  BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.shade500,
+                      offset: Offset(4.0, 4.0),
+                      blurRadius: 15.0,
+                      spreadRadius: 1.0, 
+                    ),
+                    BoxShadow(
+                      color: Colors.white,
+                      offset: Offset(-4.0, -4.0),
+                      blurRadius: 15.0,
+                      spreadRadius: 1.0,  
+                    ),
+
+                    
+                  ]
+                  ),
+                  
+                  
           )),
     );
   }
