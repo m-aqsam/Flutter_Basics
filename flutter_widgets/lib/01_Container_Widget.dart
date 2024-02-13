@@ -10,19 +10,19 @@ class Container_Widget extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          //backgroundColor: Colors.deepPurple[200],
+          backgroundColor: Colors.grey[300],
           appBar: AppBar(
             backgroundColor: Colors.deepPurple,
             title: Text("Dashboard"),
           ),
           body: Center(
-              child: Container( 
-            height: 300,
-            width: 300,
+              child: Container(
+            height: 250,
+            width: 250,
             decoration: BoxDecoration(
-              color: Colors.deepPurple,
-              shape: BoxShape.circle,
-              borderRadius: BorderRadius.circular(15),
+              color: Colors.grey[300],
+              //shape: BoxShape.circle,
+              borderRadius: BorderRadius.circular(30),
               boxShadow: [
                 BoxShadow(
                   color: Colors.grey.shade500,
