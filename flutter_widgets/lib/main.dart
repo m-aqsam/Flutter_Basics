@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp( 
         debugShowCheckedModeBanner: false,
 
         // Replace the file/Class name in the home widget to get the
