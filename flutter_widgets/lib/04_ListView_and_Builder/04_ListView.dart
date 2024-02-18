@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/04_ListView_and_Builder/04_Square.dart';
 
-class ListView_and_Builders extends StatelessWidget {
-  const ListView_and_Builders({super.key});
+class ListView_ extends StatelessWidget {
+  const ListView_({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class ListView_and_Builders extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("ListView and Builders"),
+          title: Text("ListView"),
           backgroundColor: Colors.deepPurple[500],
         ),
         body: ListView(
