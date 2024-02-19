@@ -49,7 +49,7 @@ class List_Tile extends StatelessWidget {
                   height: 100,
                   width: 100,
                   decoration: BoxDecoration(
-                    color: Colors.grey[500],
+                    color: const Color.fromARGB(255, 255, 111, 111),
                     shape: BoxShape.circle,
                   ),
                 ),
