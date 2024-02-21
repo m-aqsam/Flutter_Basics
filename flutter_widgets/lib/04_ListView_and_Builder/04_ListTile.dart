@@ -46,13 +46,23 @@ class List_Tile extends StatelessWidget {
             itemBuilder: (context, index) {
               return ListTile(
                 leading: Container(
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 111, 111),
-                    shape: BoxShape.circle,
+                  height: 70,
+                  width: 70,
+                  child: CircleAvatar(
+                    backgroundColor: Colors.grey[300],
+                    child: Image.asset('assets/images/profile_image.jpg'),
+                    // backgroundImage:
+                    //   AssetImage('assets/images/profile_image.jpg'),
                   ),
                 ),
+                // leading: Container(
+                //   height: 100,
+                //   width: 100,
+                //   decoration: BoxDecoration(
+                //     color: const Color.fromARGB(255, 255, 111, 111),
+                //     shape: BoxShape.circle,
+                //   ),
+                // ),
                 title: Text(arrNames[index]),
                 subtitle: Text(arrPhone[index].toString()),
                 trailing: Icon(Icons.add),
