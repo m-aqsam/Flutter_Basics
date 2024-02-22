@@ -50,9 +50,9 @@ class List_Tile extends StatelessWidget {
                   width: 70,
                   child: CircleAvatar(
                     backgroundColor: Colors.grey[300],
-                    child: Image.asset('assets/images/profile_image.jpg'),
-                    // backgroundImage:
-                    //   AssetImage('assets/images/profile_image.jpg'),
+                    // child: Image.asset('assets/images/blackavatar.png'),
+                    //  backgroundImage:
+                    //    AssetImage('assets/images/profile_image.jpg'),
                   ),
                 ),
                 // leading: Container(

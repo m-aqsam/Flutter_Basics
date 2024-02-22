@@ -26,6 +26,6 @@ class MyApp extends StatelessWidget {
         // Replace the file/Class name in the home widget to get the
         // results of desire widget file or Class.
 
-        home: Practice_Widgets());
+        home: List_Tile());
   }
 }
