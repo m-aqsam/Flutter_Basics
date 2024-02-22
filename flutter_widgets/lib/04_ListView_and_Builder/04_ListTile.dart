@@ -49,7 +49,7 @@ class List_Tile extends StatelessWidget {
                   height: 70,
                   width: 70,
                   child: CircleAvatar(
-                    backgroundColor: Colors.grey[300],
+                    backgroundColor: Colors.red,
                     // child: Image.asset('assets/images/blackavatar.png'),
                     //  backgroundImage:
                     //    AssetImage('assets/images/profile_image.jpg'),
@@ -65,7 +65,7 @@ class List_Tile extends StatelessWidget {
                 // ),
                 title: Text(arrNames[index]),
                 subtitle: Text(arrPhone[index].toString()),
-                trailing: Icon(Icons.add),
+                trailing: Icon(Icons.call),
               );
             },
             separatorBuilder: (context, index) {
