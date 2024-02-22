@@ -11,6 +11,8 @@ import 'package:flutter_widgets/05_Practice_Widgets.dart';
 import 'package:flutter_widgets/06_ImageBox.dart';
 import 'package:flutter_widgets/06_Image_Assets.dart';
 import 'package:flutter_widgets/07_Image_List.dart';
+import 'package:flutter_widgets/08_Grid_View/08_GridView.dart';
+import 'package:flutter_widgets/08_Grid_View/08_Grid_View.Builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,6 +31,6 @@ class MyApp extends StatelessWidget {
         // Replace the file/Class name in the home widget to get the
         // results of desire widget file or Class.
 
-        home: Image_List());
+        home: Grid_View_Builder());
   }
 }
