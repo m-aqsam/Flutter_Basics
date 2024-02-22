@@ -8,7 +8,7 @@ class MySquare extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(5),
       child: Container(
-        height: 180,
+        height: 170,
         color: Colors.amber,
       ),
     );
