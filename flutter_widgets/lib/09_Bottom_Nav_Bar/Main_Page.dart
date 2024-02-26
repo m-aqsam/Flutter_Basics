@@ -20,6 +20,10 @@ class _Home_PageState extends State<Home_Page> {
           backgroundColor: Colors.blue[500],
         ),
         bottomNavigationBar: BottomNavigationBar(
+          currentIndex: 0,
+          onTap: (value) {
+            setState() {}
+          },
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
