@@ -35,7 +35,7 @@ class _Home_PageState extends State<Home_Page> {
           ],
         ),
         body: Center(
-          child: Text(''),
+          child: Text('Home Page'),
         ),
       ),
     );
