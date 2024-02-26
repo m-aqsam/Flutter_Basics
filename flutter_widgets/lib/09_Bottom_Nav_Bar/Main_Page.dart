@@ -30,6 +30,9 @@ class _Home_PageState extends State<Home_Page> {
             BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account'),
           ],
         ),
+        body: Center(
+          child: Text(''),
+        ),
       ),
     );
   }
