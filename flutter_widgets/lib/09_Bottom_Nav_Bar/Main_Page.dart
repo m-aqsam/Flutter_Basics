@@ -1,6 +1,9 @@
 // ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, unused_element, unused_field
 
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/09_Bottom_Nav_Bar/Account.dart';
+import 'package:flutter_widgets/09_Bottom_Nav_Bar/Messgae.dart';
+import 'package:flutter_widgets/09_Bottom_Nav_Bar/Setting.dart';
 
 class Home_Page extends StatefulWidget {
   const Home_Page({super.key});
@@ -19,42 +22,10 @@ class _Home_PageState extends State<Home_Page> {
   }
 
   final List<Widget> _pages = [
-    Center(
-      child: Text(
-        'Home',
-        style: TextStyle(
-          fontSize: 50,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    ),
-    Center(
-      child: Text(
-        'Message',
-        style: TextStyle(
-          fontSize: 50,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    ),
-    Center(
-      child: Text(
-        'Setting',
-        style: TextStyle(
-          fontSize: 50,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    ),
-    Center(
-      child: Text(
-        'Account',
-        style: TextStyle(
-          fontSize: 50,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    ),
+    Home_Page(),
+    MyMessages(),
+    MySetting(),
+    MyAcc(),
   ];
 
   @override
