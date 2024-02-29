@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class MyMessages extends StatelessWidget {
@@ -5,6 +7,14 @@ class MyMessages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Text(
+        'Message',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    );
   }
 }
