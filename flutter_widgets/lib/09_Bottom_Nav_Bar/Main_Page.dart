@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, unused_element, unused_field
 
 import 'package:flutter/material.dart';
 
@@ -10,6 +10,53 @@ class Home_Page extends StatefulWidget {
 }
 
 class _Home_PageState extends State<Home_Page> {
+  int CurrentIndex = 1;
+
+  void _navigationBar(int index) {
+    setState(() {
+      CurrentIndex = index;
+    });
+  }
+
+  final List<Widget> _pages = [
+    Center(
+      child: Text(
+        'Home',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    ),
+    Center(
+      child: Text(
+        'Message',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    ),
+    Center(
+      child: Text(
+        'Setting',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    ),
+    Center(
+      child: Text(
+        'Account',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    ),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,10 +67,8 @@ class _Home_PageState extends State<Home_Page> {
           backgroundColor: Colors.blue[500],
         ),
         bottomNavigationBar: BottomNavigationBar(
-          currentIndex: 0,
-          onTap: (value) {
-            setState() {}
-          },
+          currentIndex: CurrentIndex,
+          onTap: _navigationBar,
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
@@ -34,9 +79,7 @@ class _Home_PageState extends State<Home_Page> {
             BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account'),
           ],
         ),
-        body: Center(
-          child: Text('Home Page'),
-        ),
+        body: _pages[CurrentIndex],
       ),
     );
   }
