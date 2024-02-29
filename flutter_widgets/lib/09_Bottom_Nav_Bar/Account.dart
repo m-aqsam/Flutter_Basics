@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class MyAcc extends StatelessWidget {
@@ -5,6 +7,14 @@ class MyAcc extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Text(
+        'Account',
+        style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    );
   }
 }
