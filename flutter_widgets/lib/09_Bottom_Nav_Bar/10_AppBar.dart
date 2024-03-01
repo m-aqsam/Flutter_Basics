@@ -8,9 +8,11 @@ class _AppBAr extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('App Bar'),
+          backgroundColor: Colors.deepPurple[500],
         ),
       ),
     );
