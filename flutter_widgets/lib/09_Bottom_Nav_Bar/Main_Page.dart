@@ -13,7 +13,7 @@ class Home_Page extends StatefulWidget {
 }
 
 class _Home_PageState extends State<Home_Page> {
-  int CurrentIndex = 1;
+  int CurrentIndex = 0;
 
   void _navigationBar(int index) {
     setState(() {
