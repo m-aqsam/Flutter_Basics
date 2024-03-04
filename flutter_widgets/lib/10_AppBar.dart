@@ -12,7 +12,28 @@ class My_AppBar extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('App Bar'),
-          backgroundColor: Colors.deepPurple[500], 
+          backgroundColor: Colors.deepPurple[500],
+          elevation: 0,
+          leading: IconButton(
+            onPressed: () {
+              //doo Something
+            },
+            icon: Icon(Icons.menu),
+          ),
+          actions: [
+            IconButton(
+              onPressed: () {
+                //doo Something
+              },
+              icon: Icon(Icons.share),
+            ),
+          ],
+        ),
+        body: Center(
+          child: Text(
+            "App Bar",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          ),
         ),
       ),
     );
