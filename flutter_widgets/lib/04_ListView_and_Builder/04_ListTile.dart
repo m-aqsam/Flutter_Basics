@@ -51,8 +51,8 @@ class List_Tile extends StatelessWidget {
                   child: CircleAvatar(
                     backgroundColor: Colors.red,
                     // child: Image.asset('assets/images/blackavatar.png'),
-                    //  backgroundImage:
-                    //    AssetImage('assets/images/profile_image.jpg'),
+                    //backgroundImage:
+                    //  AssetImage('assets/images/profile_image.jpg'),
                   ),
                 ),
                 // leading: Container(
