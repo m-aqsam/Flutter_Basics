@@ -1,11 +1,11 @@
 // ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, prefer_final_fields, unused_field
 
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/16_Page_Scroll_View/Nav_Screens/Create_Screen.dart';
-import 'package:flutter_widgets/16_Page_Scroll_View/Nav_Screens/Friends_Screen.dart';
-import 'package:flutter_widgets/16_Page_Scroll_View/Nav_Screens/Home_Screen.dart';
-import 'package:flutter_widgets/16_Page_Scroll_View/Nav_Screens/Inbox_Screen.dart';
-import 'package:flutter_widgets/16_Page_Scroll_View/Nav_Screens/Profile_Screen.dart';
+import 'package:flutter_widgets/16_TikTok_Ui/Nav_Screens/Create_Screen.dart';
+import 'package:flutter_widgets/16_TikTok_Ui/Nav_Screens/Friends_Screen.dart';
+import 'package:flutter_widgets/16_TikTok_Ui/Nav_Screens/Home_Screen.dart';
+import 'package:flutter_widgets/16_TikTok_Ui/Nav_Screens/Inbox_Screen.dart';
+import 'package:flutter_widgets/16_TikTok_Ui/Nav_Screens/Profile_Screen.dart';
 
 class Scroll_PageView extends StatefulWidget {
   const Scroll_PageView({super.key});
