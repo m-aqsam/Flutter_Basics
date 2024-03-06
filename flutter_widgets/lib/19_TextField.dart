@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_field
+// ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_field, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 
@@ -31,10 +31,13 @@ class _TextField_WidgetState extends State<TextField_Widget> {
             child: Container(
               //color: Colors.amber,
               child: Center(
-                  child: Text(
-                userPost,
-                style: TextStyle(
-                  fontSize: 30,
+                  child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  userPost,
+                  style: TextStyle(
+                    fontSize: 30,
+                  ),
                 ),
               )),
             ),
