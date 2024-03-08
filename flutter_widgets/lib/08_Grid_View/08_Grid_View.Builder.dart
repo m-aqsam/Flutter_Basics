@@ -15,15 +15,15 @@ class Grid_View_Builder extends StatelessWidget {
           backgroundColor: Colors.blue[500],
         ),
         body: GridView.builder(
-          itemCount: 20,
+          itemCount: 364,
           gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 18),
           itemBuilder: (context, index) {
             return Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(3),
               child: Container(
-                height: 100,
-                width: 100,
+                height: 20,
+                width: 20,
                 color: Colors.blue[500],
               ),
             );
