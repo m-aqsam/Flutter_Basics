@@ -24,6 +24,7 @@ import 'package:flutter_widgets/16_TikTok_Ui/16_Page_Scroll_View.dart';
 import 'package:flutter_widgets/17_Scroll_PageView.dart';
 import 'package:flutter_widgets/18_Stack_Widget.dart';
 import 'package:flutter_widgets/19_TextField.dart';
+import 'package:flutter_widgets/20_Slider_Widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -43,6 +44,6 @@ class MyApp extends StatelessWidget {
         // results of desire widget file or Class.
 
         //home: Grid_View_Buil der());
-        home: TextField_Widget());
+        home: Slider_Widget());
   }
 }
