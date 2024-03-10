@@ -25,6 +25,7 @@ import 'package:flutter_widgets/17_Scroll_PageView.dart';
 import 'package:flutter_widgets/18_Stack_Widget.dart';
 import 'package:flutter_widgets/19_TextField.dart';
 import 'package:flutter_widgets/20_Slider_Widget.dart';
+import 'package:flutter_widgets/21_Slidable_Widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,6 +45,6 @@ class MyApp extends StatelessWidget {
         // results of desire widget file or Class.
 
         //home: Grid_View_Buil der());
-        home: Slider_Widget());
+        home: Slideable_Widget());
   }
 }
