@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
         // Replace the file/Class name in the home widget to get the
         // results of desire widget file or Class.
 
-        //home: Grid_View_Buil der());
+        //home: Grid_View_Builder()); 
         home: Slideable_Widget());
   }
 }
