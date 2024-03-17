@@ -77,11 +77,12 @@ class _Scroll_PageViewState extends State<Scroll_PageView> {
               label: 'Home',
             ),
             BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.group,
-                  //color: Colors.white,
-                ),
-                label: "Friends"),
+              icon: Icon(
+                Icons.group,
+                //color: Colors.white,
+              ),
+              //label: "Friends",
+            ),
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.add_box,
